@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="556" viewBox="0 0 1120 556">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="560" y="34" text-anchor="middle" font-size="22" font-family="Arial">Synchronization Event Timeline</text>
+<text x="20" y="70" font-size="12" font-family="Arial">Consumer 1</text>
+<line x1="170" y1="65" x2="1060" y2="65" stroke="#e5e5e5"/>
+<text x="20" y="104" font-size="12" font-family="Arial">Consumer 2</text>
+<line x1="170" y1="99" x2="1060" y2="99" stroke="#e5e5e5"/>
+<text x="20" y="138" font-size="12" font-family="Arial">Philosopher 0</text>
+<line x1="170" y1="133" x2="1060" y2="133" stroke="#e5e5e5"/>
+<text x="20" y="172" font-size="12" font-family="Arial">Philosopher 1</text>
+<line x1="170" y1="167" x2="1060" y2="167" stroke="#e5e5e5"/>
+<text x="20" y="206" font-size="12" font-family="Arial">Philosopher 2</text>
+<line x1="170" y1="201" x2="1060" y2="201" stroke="#e5e5e5"/>
+<text x="20" y="240" font-size="12" font-family="Arial">Philosopher 3</text>
+<line x1="170" y1="235" x2="1060" y2="235" stroke="#e5e5e5"/>
+<text x="20" y="274" font-size="12" font-family="Arial">Philosopher 4</text>
+<line x1="170" y1="269" x2="1060" y2="269" stroke="#e5e5e5"/>
+<text x="20" y="308" font-size="12" font-family="Arial">Producer 1</text>
+<line x1="170" y1="303" x2="1060" y2="303" stroke="#e5e5e5"/>
+<text x="20" y="342" font-size="12" font-family="Arial">Producer 2</text>
+<line x1="170" y1="337" x2="1060" y2="337" stroke="#e5e5e5"/>
+<text x="20" y="376" font-size="12" font-family="Arial">Reader 1</text>
+<line x1="170" y1="371" x2="1060" y2="371" stroke="#e5e5e5"/>
+<text x="20" y="410" font-size="12" font-family="Arial">Reader 2</text>
+<line x1="170" y1="405" x2="1060" y2="405" stroke="#e5e5e5"/>
+<text x="20" y="444" font-size="12" font-family="Arial">Reader 3</text>
+<line x1="170" y1="439" x2="1060" y2="439" stroke="#e5e5e5"/>
+<text x="20" y="478" font-size="12" font-family="Arial">Writer 1</text>
+<line x1="170" y1="473" x2="1060" y2="473" stroke="#e5e5e5"/>
+<text x="20" y="512" font-size="12" font-family="Arial">Writer 2</text>
+<line x1="170" y1="507" x2="1060" y2="507" stroke="#e5e5e5"/>
+<circle cx="170.0" cy="303" r="5" fill="#2f80ed"><title>Producer 1 生产 1，缓冲区大小=1</title></circle>
+<circle cx="183.1" cy="65" r="5" fill="#27ae60"><title>Consumer 1 消费 1</title></circle>
+<circle cx="196.2" cy="337" r="5" fill="#2f80ed"><title>Producer 2 生产 2，缓冲区大小=1</title></circle>
+<circle cx="209.3" cy="99" r="5" fill="#27ae60"><title>Consumer 2 消费 2</title></circle>
+<circle cx="222.4" cy="303" r="5" fill="#2f80ed"><title>Producer 1 生产 3，缓冲区大小=1</title></circle>
+<circle cx="235.4" cy="65" r="5" fill="#27ae60"><title>Consumer 1 消费 3</title></circle>
+<circle cx="248.5" cy="337" r="5" fill="#2f80ed"><title>Producer 2 生产 4，缓冲区大小=1</title></circle>
+<circle cx="261.6" cy="303" r="5" fill="#2f80ed"><title>Producer 1 生产 5，缓冲区大小=2</title></circle>
+<circle cx="274.7" cy="99" r="5" fill="#27ae60"><title>Consumer 2 消费 4</title></circle>
+<circle cx="287.8" cy="65" r="5" fill="#27ae60"><title>Consumer 1 消费 5</title></circle>
+<circle cx="300.9" cy="303" r="5" fill="#2f80ed"><title>Producer 1 生产 6，缓冲区大小=1</title></circle>
+<circle cx="314.0" cy="337" r="5" fill="#2f80ed"><title>Producer 2 生产 7，缓冲区大小=2</title></circle>
+<circle cx="327.1" cy="99" r="5" fill="#27ae60"><title>Consumer 2 消费 6</title></circle>
+<circle cx="340.1" cy="303" r="5" fill="#2f80ed"><title>Producer 1 生产 8，缓冲区大小=2</title></circle>
+<circle cx="353.2" cy="65" r="5" fill="#27ae60"><title>Consumer 1 消费 7</title></circle>
+<circle cx="366.3" cy="337" r="5" fill="#2f80ed"><title>Producer 2 生产 9，缓冲区大小=2</title></circle>
+<circle cx="379.4" cy="303" r="5" fill="#2f80ed"><title>Producer 1 生产 10，缓冲区大小=3</title></circle>
+<circle cx="392.5" cy="99" r="5" fill="#27ae60"><title>Consumer 2 消费 8</title></circle>
+<circle cx="405.6" cy="65" r="5" fill="#27ae60"><title>Consumer 1 消费 9</title></circle>
+<circle cx="418.7" cy="337" r="5" fill="#2f80ed"><title>Producer 2 生产 11，缓冲区大小=2</title></circle>
+<circle cx="431.8" cy="65" r="5" fill="#27ae60"><title>Consumer 1 消费 10</title></circle>
+<circle cx="444.9" cy="99" r="5" fill="#27ae60"><title>Consumer 2 消费 11</title></circle>
+<circle cx="457.9" cy="337" r="5" fill="#2f80ed"><title>Producer 2 生产 12，缓冲区大小=1</title></circle>
+<circle cx="471.0" cy="65" r="5" fill="#27ae60"><title>Consumer 1 消费 12</title></circle>
+<circle cx="484.1" cy="99" r="5" fill="#27ae60"><title>Consumer 2 收到结束标记，退出</title></circle>
+<circle cx="497.2" cy="65" r="5" fill="#27ae60"><title>Consumer 1 收到结束标记，退出</title></circle>
+<circle cx="510.3" cy="371" r="5" fill="#f2994a"><title>Reader 1 读取 sharedData=0</title></circle>
+<circle cx="523.4" cy="405" r="5" fill="#f2994a"><title>Reader 2 读取 sharedData=0</title></circle>
+<circle cx="536.5" cy="439" r="5" fill="#f2994a"><title>Reader 3 读取 sharedData=0</title></circle>
+<circle cx="549.6" cy="507" r="5" fill="#eb5757"><title>Writer 2 写入 sharedData=1</title></circle>
+<circle cx="562.6" cy="473" r="5" fill="#eb5757"><title>Writer 1 写入 sharedData=2</title></circle>
+<circle cx="575.7" cy="439" r="5" fill="#f2994a"><title>Reader 3 读取 sharedData=2</title></circle>
+<circle cx="588.8" cy="405" r="5" fill="#f2994a"><title>Reader 2 读取 sharedData=2</title></circle>
+<circle cx="601.9" cy="371" r="5" fill="#f2994a"><title>Reader 1 读取 sharedData=2</title></circle>
+<circle cx="615.0" cy="507" r="5" fill="#eb5757"><title>Writer 2 写入 sharedData=3</title></circle>
+<circle cx="628.1" cy="473" r="5" fill="#eb5757"><title>Writer 1 写入 sharedData=4</title></circle>
+<circle cx="641.2" cy="439" r="5" fill="#f2994a"><title>Reader 3 读取 sharedData=4</title></circle>
+<circle cx="654.3" cy="405" r="5" fill="#f2994a"><title>Reader 2 读取 sharedData=4</title></circle>
+<circle cx="667.4" cy="371" r="5" fill="#f2994a"><title>Reader 1 读取 sharedData=4</title></circle>
+<circle cx="680.4" cy="133" r="5" fill="#9b51e0"><title>Philosopher 0 思考，第 1 轮</title></circle>
+<circle cx="693.5" cy="235" r="5" fill="#9b51e0"><title>Philosopher 3 思考，第 1 轮</title></circle>
+<circle cx="706.6" cy="201" r="5" fill="#9b51e0"><title>Philosopher 2 思考，第 1 轮</title></circle>
+<circle cx="719.7" cy="167" r="5" fill="#9b51e0"><title>Philosopher 1 思考，第 1 轮</title></circle>
+<circle cx="732.8" cy="269" r="5" fill="#9b51e0"><title>Philosopher 4 思考，第 1 轮</title></circle>
+<circle cx="745.9" cy="133" r="5" fill="#9b51e0"><title>Philosopher 0 拿到叉子 0 和 1，开始进餐</title></circle>
+<circle cx="759.0" cy="201" r="5" fill="#9b51e0"><title>Philosopher 2 拿到叉子 2 和 3，开始进餐</title></circle>
+<circle cx="772.1" cy="133" r="5" fill="#9b51e0"><title>Philosopher 0 思考，第 2 轮</title></circle>
+<circle cx="785.1" cy="269" r="5" fill="#9b51e0"><title>Philosopher 4 拿到叉子 4 和 0，开始进餐</title></circle>
+<circle cx="798.2" cy="201" r="5" fill="#9b51e0"><title>Philosopher 2 思考，第 2 轮</title></circle>
+<circle cx="811.3" cy="167" r="5" fill="#9b51e0"><title>Philosopher 1 拿到叉子 1 和 2，开始进餐</title></circle>
+<circle cx="824.4" cy="269" r="5" fill="#9b51e0"><title>Philosopher 4 思考，第 2 轮</title></circle>
+<circle cx="837.5" cy="235" r="5" fill="#9b51e0"><title>Philosopher 3 拿到叉子 3 和 4，开始进餐</title></circle>
+<circle cx="850.6" cy="167" r="5" fill="#9b51e0"><title>Philosopher 1 思考，第 2 轮</title></circle>
+<circle cx="863.7" cy="133" r="5" fill="#9b51e0"><title>Philosopher 0 拿到叉子 0 和 1，开始进餐</title></circle>
+<circle cx="876.8" cy="235" r="5" fill="#9b51e0"><title>Philosopher 3 思考，第 2 轮</title></circle>
+<circle cx="889.9" cy="201" r="5" fill="#9b51e0"><title>Philosopher 2 拿到叉子 2 和 3，开始进餐</title></circle>
+<circle cx="902.9" cy="133" r="5" fill="#9b51e0"><title>Philosopher 0 思考，第 3 轮</title></circle>
+<circle cx="916.0" cy="269" r="5" fill="#9b51e0"><title>Philosopher 4 拿到叉子 4 和 0，开始进餐</title></circle>
+<circle cx="929.1" cy="201" r="5" fill="#9b51e0"><title>Philosopher 2 思考，第 3 轮</title></circle>
+<circle cx="942.2" cy="167" r="5" fill="#9b51e0"><title>Philosopher 1 拿到叉子 1 和 2，开始进餐</title></circle>
+<circle cx="955.3" cy="269" r="5" fill="#9b51e0"><title>Philosopher 4 思考，第 3 轮</title></circle>
+<circle cx="968.4" cy="235" r="5" fill="#9b51e0"><title>Philosopher 3 拿到叉子 3 和 4，开始进餐</title></circle>
+<circle cx="981.5" cy="167" r="5" fill="#9b51e0"><title>Philosopher 1 思考，第 3 轮</title></circle>
+<circle cx="994.6" cy="133" r="5" fill="#9b51e0"><title>Philosopher 0 拿到叉子 0 和 1，开始进餐</title></circle>
+<circle cx="1007.6" cy="235" r="5" fill="#9b51e0"><title>Philosopher 3 思考，第 3 轮</title></circle>
+<circle cx="1020.7" cy="201" r="5" fill="#9b51e0"><title>Philosopher 2 拿到叉子 2 和 3，开始进餐</title></circle>
+<circle cx="1033.8" cy="269" r="5" fill="#9b51e0"><title>Philosopher 4 拿到叉子 4 和 0，开始进餐</title></circle>
+<circle cx="1046.9" cy="167" r="5" fill="#9b51e0"><title>Philosopher 1 拿到叉子 1 和 2，开始进餐</title></circle>
+<circle cx="1060.0" cy="235" r="5" fill="#9b51e0"><title>Philosopher 3 拿到叉子 3 和 4，开始进餐</title></circle>
+</svg>

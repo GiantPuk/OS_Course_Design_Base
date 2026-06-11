@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="360" viewBox="0 0 1160 360">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="580" y="34" text-anchor="middle" font-size="22" font-family="Arial">Dynamic Partition Final Memory Map: FF / BF / WF</text>
+<text x="580" y="58" text-anchor="middle" font-size="13" font-family="Arial" fill="#555">Memory size = 640, used = 475, free = 165</text>
+<line x1="190.0" y1="78" x2="190.0" y2="270" stroke="#edf0f2" stroke-width="1"/>
+<text x="190.0" y="292" text-anchor="middle" font-size="11" font-family="Arial" fill="#555">0</text>
+<line x1="300.0" y1="78" x2="300.0" y2="270" stroke="#edf0f2" stroke-width="1"/>
+<text x="300.0" y="292" text-anchor="middle" font-size="11" font-family="Arial" fill="#555">80</text>
+<line x1="410.0" y1="78" x2="410.0" y2="270" stroke="#edf0f2" stroke-width="1"/>
+<text x="410.0" y="292" text-anchor="middle" font-size="11" font-family="Arial" fill="#555">160</text>
+<line x1="520.0" y1="78" x2="520.0" y2="270" stroke="#edf0f2" stroke-width="1"/>
+<text x="520.0" y="292" text-anchor="middle" font-size="11" font-family="Arial" fill="#555">240</text>
+<line x1="630.0" y1="78" x2="630.0" y2="270" stroke="#edf0f2" stroke-width="1"/>
+<text x="630.0" y="292" text-anchor="middle" font-size="11" font-family="Arial" fill="#555">320</text>
+<line x1="740.0" y1="78" x2="740.0" y2="270" stroke="#edf0f2" stroke-width="1"/>
+<text x="740.0" y="292" text-anchor="middle" font-size="11" font-family="Arial" fill="#555">400</text>
+<line x1="850.0" y1="78" x2="850.0" y2="270" stroke="#edf0f2" stroke-width="1"/>
+<text x="850.0" y="292" text-anchor="middle" font-size="11" font-family="Arial" fill="#555">480</text>
+<line x1="960.0" y1="78" x2="960.0" y2="270" stroke="#edf0f2" stroke-width="1"/>
+<text x="960.0" y="292" text-anchor="middle" font-size="11" font-family="Arial" fill="#555">560</text>
+<line x1="1070.0" y1="78" x2="1070.0" y2="270" stroke="#edf0f2" stroke-width="1"/>
+<text x="1070.0" y="292" text-anchor="middle" font-size="11" font-family="Arial" fill="#555">640</text>
+<text x="28" y="112" font-size="15" font-family="Arial" font-weight="700">FF first fit</text>
+<text x="28" y="131" font-size="11" font-family="Arial" fill="#666">First usable block from low address</text>
+<rect x="190.0" y="86" width="137.5" height="42" fill="#2f80ed" stroke="#222"/>
+<text x="258.8" y="113" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">A 100</text>
+<rect x="327.5" y="86" width="103.1" height="42" fill="#f2994a" stroke="#222"/>
+<text x="379.1" y="113" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">F 75</text>
+<rect x="430.6" y="86" width="165.0" height="42" fill="#00a6a6" stroke="#222"/>
+<text x="513.1" y="113" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">G 120</text>
+<rect x="595.6" y="86" width="6.9" height="42" fill="#d0d7de" stroke="#222"/>
+<rect x="602.5" y="86" width="68.8" height="42" fill="#27ae60" stroke="#222"/>
+<text x="636.9" y="113" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">C 50</text>
+<rect x="671.2" y="86" width="82.5" height="42" fill="#eb5757" stroke="#222"/>
+<text x="712.5" y="113" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">H 60</text>
+<rect x="753.8" y="86" width="27.5" height="42" fill="#d0d7de" stroke="#222"/>
+<text x="767.5" y="113" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">20</text>
+<rect x="781.2" y="86" width="96.2" height="42" fill="#9b51e0" stroke="#222"/>
+<text x="829.4" y="113" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">E 70</text>
+<rect x="877.5" y="86" width="192.5" height="42" fill="#d0d7de" stroke="#222"/>
+<text x="973.8" y="113" text-anchor="middle" font-size="12" font-family="Arial" fill="#333">FREE 140</text>
+<text x="28" y="182" font-size="15" font-family="Arial" font-weight="700">BF best fit</text>
+<text x="28" y="201" font-size="11" font-family="Arial" fill="#666">Smallest usable block</text>
+<rect x="190.0" y="156" width="137.5" height="42" fill="#2f80ed" stroke="#222"/>
+<text x="258.8" y="183" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">A 100</text>
+<rect x="327.5" y="156" width="82.5" height="42" fill="#eb5757" stroke="#222"/>
+<text x="368.8" y="183" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">H 60</text>
+<rect x="410.0" y="156" width="192.5" height="42" fill="#d0d7de" stroke="#222"/>
+<text x="506.2" y="183" text-anchor="middle" font-size="12" font-family="Arial" fill="#333">FREE 140</text>
+<rect x="602.5" y="156" width="68.8" height="42" fill="#27ae60" stroke="#222"/>
+<text x="636.9" y="183" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">C 50</text>
+<rect x="671.2" y="156" width="103.1" height="42" fill="#f2994a" stroke="#222"/>
+<text x="722.8" y="183" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">F 75</text>
+<rect x="774.4" y="156" width="6.9" height="42" fill="#d0d7de" stroke="#222"/>
+<rect x="781.2" y="156" width="96.2" height="42" fill="#9b51e0" stroke="#222"/>
+<text x="829.4" y="183" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">E 70</text>
+<rect x="877.5" y="156" width="165.0" height="42" fill="#00a6a6" stroke="#222"/>
+<text x="960.0" y="183" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">G 120</text>
+<rect x="1042.5" y="156" width="27.5" height="42" fill="#d0d7de" stroke="#222"/>
+<text x="1056.2" y="183" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">20</text>
+<text x="28" y="252" font-size="15" font-family="Arial" font-weight="700">WF worst fit</text>
+<text x="28" y="271" font-size="11" font-family="Arial" fill="#666">Largest usable block</text>
+<rect x="190.0" y="226" width="137.5" height="42" fill="#2f80ed" stroke="#222"/>
+<text x="258.8" y="253" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">A 100</text>
+<rect x="327.5" y="226" width="103.1" height="42" fill="#f2994a" stroke="#222"/>
+<text x="379.1" y="253" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">F 75</text>
+<rect x="430.6" y="226" width="82.5" height="42" fill="#eb5757" stroke="#222"/>
+<text x="471.9" y="253" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">H 60</text>
+<rect x="513.1" y="226" width="89.4" height="42" fill="#d0d7de" stroke="#222"/>
+<text x="557.8" y="253" text-anchor="middle" font-size="12" font-family="Arial" fill="#333">FREE 65</text>
+<rect x="602.5" y="226" width="68.8" height="42" fill="#27ae60" stroke="#222"/>
+<text x="636.9" y="253" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">C 50</text>
+<rect x="671.2" y="226" width="110.0" height="42" fill="#d0d7de" stroke="#222"/>
+<text x="726.2" y="253" text-anchor="middle" font-size="12" font-family="Arial" fill="#333">FREE 80</text>
+<rect x="781.2" y="226" width="96.2" height="42" fill="#9b51e0" stroke="#222"/>
+<text x="829.4" y="253" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">E 70</text>
+<rect x="877.5" y="226" width="165.0" height="42" fill="#00a6a6" stroke="#222"/>
+<text x="960.0" y="253" text-anchor="middle" font-size="12" font-family="Arial" fill="#ffffff">G 120</text>
+<rect x="1042.5" y="226" width="27.5" height="42" fill="#d0d7de" stroke="#222"/>
+<text x="1056.2" y="253" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">20</text>
+<rect x="420" y="318" width="18" height="12" fill="#2f80ed" stroke="#222"/>
+<text x="446" y="329" font-size="12" font-family="Arial">Used partition</text>
+<rect x="600" y="318" width="18" height="12" fill="#d0d7de" stroke="#222"/>
+<text x="626" y="329" font-size="12" font-family="Arial">Free partition</text>
+</svg>

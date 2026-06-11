@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="540" viewBox="0 0 980 540">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="490.0" y="34" text-anchor="middle" font-size="22" font-family="Arial">File System Allocation Methods Used In Test</text>
+<line x1="86" y1="435" x2="940" y2="435" stroke="#222"/>
+<line x1="86" y1="72" x2="86" y2="435" stroke="#222"/>
+<line x1="86" y1="435.0" x2="940" y2="435.0" stroke="#e8e8e8"/>
+<text x="76" y="440.0" text-anchor="end" font-size="12" font-family="Arial">0.0</text>
+<line x1="86" y1="362.4" x2="940" y2="362.4" stroke="#e8e8e8"/>
+<text x="76" y="367.4" text-anchor="end" font-size="12" font-family="Arial">1.4</text>
+<line x1="86" y1="289.8" x2="940" y2="289.8" stroke="#e8e8e8"/>
+<text x="76" y="294.8" text-anchor="end" font-size="12" font-family="Arial">2.8</text>
+<line x1="86" y1="217.2" x2="940" y2="217.2" stroke="#e8e8e8"/>
+<text x="76" y="222.2" text-anchor="end" font-size="12" font-family="Arial">4.2</text>
+<line x1="86" y1="144.6" x2="940" y2="144.6" stroke="#e8e8e8"/>
+<text x="76" y="149.6" text-anchor="end" font-size="12" font-family="Arial">5.7</text>
+<line x1="86" y1="72.0" x2="940" y2="72.0" stroke="#e8e8e8"/>
+<text x="76" y="77.0" text-anchor="end" font-size="12" font-family="Arial">7.1</text>
+<rect x="150.1" y="229.9" width="111.0" height="205.1" fill="#2f80ed"/>
+<text x="205.6" y="224.9" text-anchor="middle" font-size="10" font-family="Arial">4.00</text>
+<text x="228.3" y="465" text-anchor="middle" font-size="12" font-family="Arial">Contiguous</text>
+<rect x="434.7" y="229.9" width="111.0" height="205.1" fill="#2f80ed"/>
+<text x="490.2" y="224.9" text-anchor="middle" font-size="10" font-family="Arial">4.00</text>
+<text x="513.0" y="465" text-anchor="middle" font-size="12" font-family="Arial">Linked</text>
+<rect x="719.4" y="127.4" width="111.0" height="307.6" fill="#2f80ed"/>
+<text x="774.9" y="122.4" text-anchor="middle" font-size="10" font-family="Arial">6.00</text>
+<text x="797.7" y="465" text-anchor="middle" font-size="12" font-family="Arial">Indexed</text>
+<rect x="86" y="498" width="16" height="16" fill="#2f80ed"/>
+<text x="108" y="511" font-size="13" font-family="Arial">mentions/files</text>
+</svg>

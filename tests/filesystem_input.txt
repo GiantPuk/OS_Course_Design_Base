@@ -1,0 +1,34 @@
+4
+24
+8
+1
+contig.txt
+2
+contig.txt
+ABCDEFGHIJ
+3
+contig.txt
+7
+2
+1
+link.txt
+2
+link.txt
+linked allocation blocks demo
+7
+3
+1
+index.txt
+2
+index.txt
+indexed allocation supports random access
+5
+6
+9
+index.txt
+4
+link.txt
+5
+6
+0
+0

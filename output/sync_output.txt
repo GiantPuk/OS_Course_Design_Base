@@ -1,0 +1,111 @@
+操作系统课程设计基础部分模拟系统
+覆盖：处理机调度 / 内存管理 / 进程同步 / 文件系统
+
+========== 主菜单 ==========
+1. 处理机调度
+2. 内存管理
+3. 进程同步与并发控制
+4. 简易文件系统
+5. 基础部分综合演示
+0. 退出
+请选择: 
+========== 进程同步与并发控制 ==========
+1. 生产者-消费者
+2. 读者-写者
+3. 哲学家进餐
+4. 三个问题全部演示
+0. 返回主菜单
+请选择: 
+========== 生产者-消费者问题 ==========
+Producer 1 生产 1，缓冲区大小=1
+Consumer 1 消费 1
+Producer 2 生产 2，缓冲区大小=1
+Consumer 2 消费 2
+Producer 1 生产 3，缓冲区大小=1
+Consumer 1 消费 3
+Producer 2 生产 4，缓冲区大小=1
+Producer 1 生产 5，缓冲区大小=2
+Consumer 2 消费 4
+Consumer 1 消费 5
+Producer 1 生产 6，缓冲区大小=1
+Producer 2 生产 7，缓冲区大小=2
+Consumer 2 消费 6
+Producer 1 生产 8，缓冲区大小=2
+Consumer 1 消费 7
+Producer 2 生产 9，缓冲区大小=2
+Producer 1 生产 10，缓冲区大小=3
+Consumer 2 消费 8
+Consumer 1 消费 9
+Producer 2 生产 11，缓冲区大小=2
+Consumer 1 消费 10
+Consumer 2 消费 11
+Producer 2 生产 12，缓冲区大小=1
+Consumer 1 消费 12
+Consumer 2 收到结束标记，退出
+Consumer 1 收到结束标记，退出
+结果: 使用 empty/full 计数信号量控制缓冲区容量，mutex 保护临界区。
+
+========== 读者-写者问题 ==========
+Reader 1 读取 sharedData=0
+Reader 2 读取 sharedData=0
+Reader 3 读取 sharedData=0
+Writer 2 写入 sharedData=1
+Writer 1 写入 sharedData=2
+Reader 3 读取 sharedData=2
+Reader 2 读取 sharedData=2
+Reader 1 读取 sharedData=2
+Writer 2 写入 sharedData=3
+Writer 1 写入 sharedData=4
+Reader 3 读取 sharedData=4
+Reader 2 读取 sharedData=4
+Reader 1 读取 sharedData=4
+结果: 多个读者可并发读；写者独占访问；等待写者优先，减少写者饥饿。
+
+========== 哲学家进餐问题 ==========
+Philosopher 0 思考，第 1 轮
+Philosopher 3 思考，第 1 轮
+Philosopher 2 思考，第 1 轮
+Philosopher 1 思考，第 1 轮
+Philosopher 4 思考，第 1 轮
+Philosopher 0 拿到叉子 0 和 1，开始进餐
+Philosopher 2 拿到叉子 2 和 3，开始进餐
+Philosopher 0 思考，第 2 轮
+Philosopher 4 拿到叉子 4 和 0，开始进餐
+Philosopher 2 思考，第 2 轮
+Philosopher 1 拿到叉子 1 和 2，开始进餐
+Philosopher 4 思考，第 2 轮
+Philosopher 3 拿到叉子 3 和 4，开始进餐
+Philosopher 1 思考，第 2 轮
+Philosopher 0 拿到叉子 0 和 1，开始进餐
+Philosopher 3 思考，第 2 轮
+Philosopher 2 拿到叉子 2 和 3，开始进餐
+Philosopher 0 思考，第 3 轮
+Philosopher 4 拿到叉子 4 和 0，开始进餐
+Philosopher 2 思考，第 3 轮
+Philosopher 1 拿到叉子 1 和 2，开始进餐
+Philosopher 4 思考，第 3 轮
+Philosopher 3 拿到叉子 3 和 4，开始进餐
+Philosopher 1 思考，第 3 轮
+Philosopher 0 拿到叉子 0 和 1，开始进餐
+Philosopher 3 思考，第 3 轮
+Philosopher 2 拿到叉子 2 和 3，开始进餐
+Philosopher 4 拿到叉子 4 和 0，开始进餐
+Philosopher 1 拿到叉子 1 和 2，开始进餐
+Philosopher 3 拿到叉子 3 和 4，开始进餐
+结果: 服务员信号量最多允许 4 人同时竞争叉子，配合 std::lock 避免死锁。
+
+========== 进程同步与并发控制 ==========
+1. 生产者-消费者
+2. 读者-写者
+3. 哲学家进餐
+4. 三个问题全部演示
+0. 返回主菜单
+请选择: 
+========== 主菜单 ==========
+1. 处理机调度
+2. 内存管理
+3. 进程同步与并发控制
+4. 简易文件系统
+5. 基础部分综合演示
+0. 退出
+请选择: 程序结束。

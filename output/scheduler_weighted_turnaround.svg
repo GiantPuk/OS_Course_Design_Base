@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="540" viewBox="0 0 980 540">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="490.0" y="34" text-anchor="middle" font-size="22" font-family="Arial">Processor Scheduling: Weighted Turnaround</text>
+<line x1="86" y1="435" x2="940" y2="435" stroke="#222"/>
+<line x1="86" y1="72" x2="86" y2="435" stroke="#222"/>
+<line x1="86" y1="435.0" x2="940" y2="435.0" stroke="#e8e8e8"/>
+<text x="76" y="440.0" text-anchor="end" font-size="12" font-family="Arial">0.0</text>
+<line x1="86" y1="362.4" x2="940" y2="362.4" stroke="#e8e8e8"/>
+<text x="76" y="367.4" text-anchor="end" font-size="12" font-family="Arial">1.0</text>
+<line x1="86" y1="289.8" x2="940" y2="289.8" stroke="#e8e8e8"/>
+<text x="76" y="294.8" text-anchor="end" font-size="12" font-family="Arial">2.0</text>
+<line x1="86" y1="217.2" x2="940" y2="217.2" stroke="#e8e8e8"/>
+<text x="76" y="222.2" text-anchor="end" font-size="12" font-family="Arial">3.0</text>
+<line x1="86" y1="144.6" x2="940" y2="144.6" stroke="#e8e8e8"/>
+<text x="76" y="149.6" text-anchor="end" font-size="12" font-family="Arial">4.1</text>
+<line x1="86" y1="72.0" x2="940" y2="72.0" stroke="#e8e8e8"/>
+<text x="76" y="77.0" text-anchor="end" font-size="12" font-family="Arial">5.1</text>
+<rect x="118.0" y="127.4" width="55.5" height="307.6" fill="#9b51e0"/>
+<text x="145.8" y="122.4" text-anchor="middle" font-size="10" font-family="Arial">4.30</text>
+<text x="157.2" y="465" text-anchor="middle" font-size="12" font-family="Arial">FCFS</text>
+<rect x="260.4" y="246.1" width="55.5" height="188.9" fill="#9b51e0"/>
+<text x="288.1" y="241.1" text-anchor="middle" font-size="10" font-family="Arial">2.64</text>
+<text x="299.5" y="465" text-anchor="middle" font-size="12" font-family="Arial">SJF</text>
+<rect x="402.7" y="133.8" width="55.5" height="301.2" fill="#9b51e0"/>
+<text x="430.4" y="128.8" text-anchor="middle" font-size="10" font-family="Arial">4.21</text>
+<text x="441.8" y="465" text-anchor="middle" font-size="12" font-family="Arial">RR</text>
+<rect x="545.0" y="228.2" width="55.5" height="206.8" fill="#9b51e0"/>
+<text x="572.8" y="223.2" text-anchor="middle" font-size="10" font-family="Arial">2.89</text>
+<text x="584.2" y="465" text-anchor="middle" font-size="12" font-family="Arial">Priority</text>
+<rect x="687.4" y="290.5" width="55.5" height="144.5" fill="#9b51e0"/>
+<text x="715.1" y="285.5" text-anchor="middle" font-size="10" font-family="Arial">2.02</text>
+<text x="726.5" y="465" text-anchor="middle" font-size="12" font-family="Arial">SRTF</text>
+<rect x="829.7" y="285.5" width="55.5" height="149.5" fill="#9b51e0"/>
+<text x="857.4" y="280.5" text-anchor="middle" font-size="10" font-family="Arial">2.09</text>
+<text x="868.8" y="465" text-anchor="middle" font-size="12" font-family="Arial">PriorityPreemptive</text>
+<rect x="86" y="498" width="16" height="16" fill="#9b51e0"/>
+<text x="108" y="511" font-size="13" font-family="Arial">Weighted turnaround</text>
+</svg>
